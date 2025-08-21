@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix - Sign In</title>
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="login-body-bg">
+
+    <!-- Header with Logo -->
+    <header class="py-5 px-4 sm:px-8 md:px-12">
+        <a href="#">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Netflix_logo.svg/1920px-Netflix_logo.svg.png" alt="Netflix Logo" class="w-28 md:w-44 h-auto">
+        </a>
+    </header>
+
+    <!-- Login Form -->
+    <main class="flex justify-center items-center min-h-[80vh] px-4">
+        <div class="login-form-container w-full max-w-md p-8 sm:p-16 text-white">
+            <h1 class="text-3xl font-bold mb-8">Sign In</h1>
+
+            <form id="loginForm">
+                <div class="space-y-4">
+                    <input type="email" placeholder="Email or phone number" class="w-full p-4 rounded login-input text-white" required>
+                    <input type="password" placeholder="Password" class="w-full p-4 rounded login-input text-white" required>
+                </div>
+
+                <button type="submit" class="w-full bg-red-600 hover:bg-red-700 text-white font-bold py-3 rounded mt-8">
+          Sign In
+        </button>
+
+                <div class="flex justify-between items-center mt-4 text-sm text-gray-400">
+                    <a href="#" class="hover:underline">Need help?</a>
+                </div>
+            </form>
+
+            <div class="mt-12 text-gray-400">
+                <p>New to Netflix? <a href="#" class="text-white hover:underline">Sign up now</a>.</p>
+                <p class="text-xs mt-4">
+                    <a href="#" class="text-blue-500 hover:underline">Learn more.</a>
+                </p>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer-bg py-12 mt-20">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-gray-400">
+            <p class="mb-8">Call <a href="tel:100 500 800 600" class="footer-link">100 500 800 600</a></p>
+            <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 text-sm">
+                <a href="#" class="footer-link">FAQ</a>
+                <a href="#" class="footer-link">Help Center</a>
+                <a href="#" class="footer-link">Terms of Use</a>
+                <a href="#" class="footer-link">Privacy</a>
+                <a href="#" class="footer-link">Cookie Preferences</a>
+                <a href="#" class="footer-link">Corporate Information</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- External JS -->
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,39 @@
+/* Custom styles for the login page */
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #000000;
+}
+
+.login-body-bg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Netflix_logo.svg/1920px-Netflix_logo.svg.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.login-form-container {
+    background-color: rgba(0, 0, 0, 0.75);
+    border-radius: 0.25rem;
+}
+
+.login-input {
+    background-color: #333;
+    border: 1px solid #333;
+}
+
+.login-input:focus {
+    background-color: #454545;
+    outline: none;
+}
+
+.footer-bg {
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+.footer-link {
+    color: #737373;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}
